@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+
+16 */4 * * * proj/dscovr-epic/fetch-images.py
+20 1   * * * proj/dscovr-epic/remove-old-images.sh

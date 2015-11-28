@@ -1,0 +1,46 @@
+timeout:	0:10:00
+cycle:		0:10:00
+lock:		True
+lockTimeout:	0:01:00
+passwdTimeout:	0:00:30
+timestamp:	True
+splash:		False
+splashDuration:	0:00:05
+demoCommand:	xscreensaver-demo
+prefsCommand:	xscreensaver-demo -prefs
+nice:		10
+memoryLimit:	0
+fade:		True
+unfade:		False
+fadeSeconds:	0:00:03
+fadeTicks:	20
+captureStderr:	True
+font:		*-medium-r-*-140-*-m-*
+dpmsEnabled:	True
+dpmsQuickOff:	True
+dpmsStandby:	0:11:00
+dpmsSuspend:	0:12:00
+dpmsOff:	0:13:00
+grabDesktopImages:  False
+grabVideoFrames:    False
+chooseRandomImages: True
+imageDirectory:	/home/adi/dscovr/latest
+
+mode:		one
+selected:	0
+
+programs:								      \
+- GL: 				glslideshow -root -duration 100 -zoom 30      \
+				  -pan 100 -fade 0			    \n\
+
+
+pointerPollTime:    0:00:05
+pointerHysteresis:  10
+windowCreationTimeout:0:00:30
+initialDelay:	0:00:00
+GetViewPortIsFullOfLies:False
+procInterrupts:	True
+xinputExtensionDev: False
+overlayStderr:	True
+authWarningSlack:   20
+
